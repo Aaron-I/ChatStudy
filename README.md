@@ -5,6 +5,7 @@ To perform a study on Client Server Chat Applications
 ## Introduction:
 Client-server chat applications are a category of networked software that enables real-time communication between users over a network. This study explores the key components, architecture, and considerations in the development of client-server chat applications, highlighting their significance and common implementation practices.
 Client-server chat applications are software systems that enable real-time communication between users over a network. These applications follow a client-server model, where one component (the server) manages connections and facilitates communication, while the other component (the client) interacts with the server to send and receive messages. Below are the fundamental aspects and components involved in the basics of client-server chat applications:
+
 ## 1. Client-Server Model:
 •	Server:
 •	The server is a central component that listens for incoming connections from clients.
@@ -19,7 +20,6 @@ Client-server chat applications are software systems that enable real-time commu
 •	TCP (Transmission Control Protocol):
 •	Provides reliable, connection-oriented communication.
 •	Ensures the ordered and error-free exchange of messages.
-
 •	UDP (User Datagram Protocol):
 •	Connectionless and operates in a best-effort mode.
 •	Faster but may result in message loss or disorder.
@@ -27,7 +27,6 @@ Client-server chat applications are software systems that enable real-time commu
 •	Sockets:
 •	Sockets serve as communication endpoints.
 •	Each client and the server has a socket for sending and receiving data.
-
 •	Functions:
 •	Socket programming involves functions for creating, binding, listening, accepting connections, and sending/receiving data through sockets.
 ## 4. User Authentication:
