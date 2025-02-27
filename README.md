@@ -25,7 +25,6 @@ Client-server chat applications are software systems that enable real-time commu
 •	Faster but may result in message loss or disorder.
 ## 3. Socket Programming:
 •	Sockets:
-
 •	Sockets serve as communication endpoints.
 •	Each client and the server has a socket for sending and receiving data.
 
@@ -64,7 +63,6 @@ User authentication mechanisms are essential to ensure secure and authorized acc
 •	As the number of users grows, the chat application must be scalable. This involves optimizing server-side architecture to handle increasing loads efficiently.
 4.	Persistence:
 •	Some chat applications implement message persistence, allowing users to retrieve past messages. This may involve using databases to store and retrieve chat history.
-
 5.	Notification Systems:
 •	Implementing real-time notifications to inform users of new messages, user presence changes, or other relevant events.
 
